@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://odh2iewttk6l"]
+
+[ext_resource type="Texture2D" uid="uid://csd5jl4pay1c5" path="res://assets/enenmy/enemy_idel.png" id="1_okr35"]
+[ext_resource type="Script" uid="uid://cc3c17jenuqsy" path="res://script/bat_sloth.gd" id="1_s0h84"]
+[ext_resource type="PackedScene" uid="uid://cebv5swbnit5q" path="res://scenes/deadzone.tscn" id="2_s0h84"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cew30"]
+atlas = ExtResource("1_okr35")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y2pkv"]
+atlas = ExtResource("1_okr35")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yivqu"]
+atlas = ExtResource("1_okr35")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_11o32"]
+atlas = ExtResource("1_okr35")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_od3r5"]
+atlas = ExtResource("1_okr35")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ph6in"]
+atlas = ExtResource("1_okr35")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0gjdp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cew30")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y2pkv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yivqu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_11o32")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_od3r5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ph6in")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0k8bl"]
+radius = 7.0
+
+[node name="BatSloth" type="Node2D" unique_id=7426780]
+script = ExtResource("1_s0h84")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1891620466]
+sprite_frames = SubResource("SpriteFrames_0gjdp")
+autoplay = "default"
+frame_progress = 0.42990798
+
+[node name="deadzone" parent="." unique_id=371591513 instance=ExtResource("2_s0h84")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="deadzone" unique_id=1317422464]
+position = Vector2(0, 3)
+shape = SubResource("CircleShape2D_0k8bl")
+
+[node name="RayCastRight" type="RayCast2D" parent="." unique_id=1067918029]
+target_position = Vector2(14, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="." unique_id=1703166908]
+target_position = Vector2(-14, 0)

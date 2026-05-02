@@ -1,0 +1,12 @@
+TileMapLayer
+Camera2D
+AnimationTree
+AnimationPlayer
+CollisionShape2D
+Sprite2D
+CharacterBody2D
+ParallaxLayer
+GraphFrame
+Parallax2D
+GPUParticlesAttractorBox3D
+ParallaxBackground

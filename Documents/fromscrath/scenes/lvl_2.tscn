@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b2ubxw7h7y8ph"]
+
+[ext_resource type="Script" uid="uid://22j5b6vhwb50" path="res://script/game_manager2.gd" id="1_iodtx"]
+
+[node name="lvl2" type="Node2D" unique_id=1853346110]
+
+[node name="GameManager" type="Node" parent="." unique_id=335606885]
+unique_name_in_owner = true
+script = ExtResource("1_iodtx")
+
+[node name="ScoreLable" type="Label" parent="GameManager" unique_id=639022647]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="TileMap" type="TileMap" parent="." unique_id=1531315363]
+format = 2
