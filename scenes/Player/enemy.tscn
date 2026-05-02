@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://be2dsdr3rmavh"]
 
+[ext_resource type="Script" uid="uid://cpgk6mrwvdqlh" path="res://scenes/Player/enemy.gd" id="1_e3g5n"]
 [ext_resource type="Texture2D" uid="uid://dokgcnc7kmw0t" path="res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png" id="1_ec201"]
+[ext_resource type="PackedScene" uid="uid://48a1u3dg5gdx" path="res://scenes/effects/death.tscn" id="2_0nn6h"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_c4h5g"]
 radius = 20.024984
@@ -181,7 +183,13 @@ states/run/position = Vector2(525.536, 58.4)
 transitions = ["Start", "idle", SubResource("AnimationNodeStateMachineTransition_n7rn1"), "idle", "run", SubResource("AnimationNodeStateMachineTransition_7tfl1"), "run", "idle", SubResource("AnimationNodeStateMachineTransition_jxtnq"), "idle", "attack", SubResource("AnimationNodeStateMachineTransition_t6q27"), "run", "attack", SubResource("AnimationNodeStateMachineTransition_wyey8"), "attack", "idle", SubResource("AnimationNodeStateMachineTransition_1bwnf")]
 graph_offset = Vector2(73.13599, 0)
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0nn6h"]
+radius = 21.0
+height = 68.0
+
 [node name="enemy" type="CharacterBody2D" unique_id=805744527]
+script = ExtResource("1_e3g5n")
+death_packed = ExtResource("2_0nn6h")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=479798107]
 position = Vector2(0, -32)
@@ -192,8 +200,6 @@ vframes = 8
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1099517408]
 shape = SubResource("CircleShape2D_c4h5g")
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1952062015]
-
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1112415029]
 libraries/ = SubResource("AnimationLibrary_dl1wr")
 
@@ -203,3 +209,14 @@ tree_root = SubResource("AnimationNodeStateMachine_t6q27")
 anim_player = NodePath("../AnimationPlayer")
 parameters/attack/BlendSpace2D/blend_position = Vector2(0, 0)
 parameters/attack/TimeScale/scale = 1.0
+
+[node name="HurtBox" type="Area2D" parent="." unique_id=1176918953]
+collision_layer = 16
+collision_mask = 0
+input_pickable = false
+monitoring = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox" unique_id=446611566]
+texture_filter = 1
+position = Vector2(0, -30)
+shape = SubResource("CapsuleShape2D_0nn6h")
