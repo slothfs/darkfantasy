@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777702627
+::res://::1777729874
 icon.svg::CompressedTexture2D::994323473656230032::1777633554::1777646648::1::::<><><>0<>0<>3a846a33c836ae142884fe799f0c602c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1777634023::0::1::::<><><>0<>0<><>::
 ::res://addons/::1777686670
@@ -11,7 +11,8 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1777686671::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1777686671::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1777686670::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1777686671::0::1::::<>RefCounted<><>0<>0<><>::
-::res://assets/::1777651373
+::res://assets/::1777729974
+New Piskel-1.png.png::CompressedTexture2D::8624255718792262299::1777729974::1777729979::1::::<><><>0<>0<>b6c669a88c8dea7c5ce2968f6e9eb6b3<>res://.godot/imported/New Piskel-1.png.png-17c8f2de147b048af02c1d17f056acee.ctex::
 ::res://assets/Tiny Swords (Update 010)/::1777651352
 ::res://assets/Tiny Swords (Update 010)/Deco/::1777651377
 01.png::CompressedTexture2D::4380793445034655396::1777651351::1777651377::1::::<><><>0<>0<>7a6211529c64fecb0c1bfca5896edddc<>res://.godot/imported/01.png-049c0424cf5b674340b69958ba3e115b.ctex::
@@ -168,7 +169,7 @@ Tree.png::CompressedTexture2D::1923842629682819276::1777651351::1777651377::1:::
 ::res://assets/Tiny Swords (Update 010)/Terrain/::1777690795
 ::res://assets/Tiny Swords (Update 010)/Terrain/Bridge/::1777651377
 Bridge_All.png::CompressedTexture2D::6591144148777871094::1777651351::1777651377::1::::<><><>0<>0<>47d0a98db93bcf3a4ada4dadb49017d7<>res://.godot/imported/Bridge_All.png-6bb026f9f72b4055cb65464ee6961b99.ctex::
-::res://assets/Tiny Swords (Update 010)/Terrain/Ground/::1777702892
+::res://assets/Tiny Swords (Update 010)/Terrain/Ground/::1777702895
 ele.png::CompressedTexture2D::4476873360864946867::1777696381::1777696387::1::::<><><>0<>0<>ab77b468e9af7600ee7cdf692b6d5b8b<>res://.godot/imported/ele.png-9d6aa354105144ecbb17f8bbf5ffea06.ctex::
 Shadows.png::CompressedTexture2D::6121626393609757220::1777651351::1777651377::1::::<><><>0<>0<>c4deea27a35d191b199d36985706b63e<>res://.godot/imported/Shadows.png-bb37e1004c38b0990a630fc72f56eb9a.ctex::
 Tilemap_Elevation.png::CompressedTexture2D::6724174406748161794::1777651351::1777651376::1::::<><><>0<>0<>a98d44ee416ef8da3be14cf9a8e2112d<>res://.godot/imported/Tilemap_Elevation.png-ebdb459ac1cdbc844347b24fe107d29c.ctex::
@@ -279,106 +280,10 @@ Ribbon_Yellow_Connection_Right.png::CompressedTexture2D::7742078943435880649::17
 Ribbon_Yellow_Connection_Right_Pressed.png::CompressedTexture2D::7385954234758620415::1777651350::1777651376::1::::<><><>0<>0<>50e3980adc5d57642a8855befe1a3cd2<>res://.godot/imported/Ribbon_Yellow_Connection_Right_Pressed.png-c4359715a65f7f37b69dcf81305c3971.ctex::
 Ribbon_Yellow_Connection_Up.png::CompressedTexture2D::3103364104582721792::1777651350::1777651376::1::::<><><>0<>0<>75df1df4710f1bc852936f0eeba4ea88<>res://.godot/imported/Ribbon_Yellow_Connection_Up.png-5b0c5965f8dddc729857179090cd2694.ctex::
 Ribbon_Yellow_Connection_Up_Pressed.png::CompressedTexture2D::9170080679231980269::1777651350::1777651376::1::::<><><>0<>0<>484c4ca64d48cce4f1cbbb2ab8621c16<>res://.godot/imported/Ribbon_Yellow_Connection_Up_Pressed.png-9450375ad0567d2d0681d2238acbbd9e.ctex::
-::res://Documents/::1777697660
-desktop.ini::TextFile::-1::1777697656::0::1::::<><><>0<>0<><>::
-::res://Documents/2-p/::1777697654
-::res://Documents/Arduino/::1777697654
-::res://Documents/Arduino/libraries/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_BusIO/::1777697654
-CMakeLists.txt::TextFile::-1::1777697654::0::1::::<><><>0<>0<><>::
-README.md::TextFile::-1::1777697654::0::1::::<><><>0<>0<><>::
-::res://Documents/Arduino/libraries/Adafruit_BusIO/examples/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_BusIO/examples/genericdevice_uartregtest/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_BusIO/examples/genericdevice_uarttest/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_BusIO/examples/i2corspi_register/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_BusIO/examples/i2c_address_detect/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_BusIO/examples/i2c_readwrite/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_BusIO/examples/i2c_registers/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_BusIO/examples/spi_modetest/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_BusIO/examples/spi_readwrite/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_BusIO/examples/spi_registers/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_BusIO/examples/spi_register_bits/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_GFX_Library/::1777697654
-CMakeLists.txt::TextFile::-1::1777697654::0::1::::<><><>0<>0<><>::
-license.txt::TextFile::-1::1777697654::0::1::::<><><>0<>0<><>::
-README.md::TextFile::-1::1777697654::0::1::::<><><>0<>0<><>::
-::res://Documents/Arduino/libraries/Adafruit_GFX_Library/examples/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_GFX_Library/examples/GFXcanvas/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_GFX_Library/examples/mock_ili9341/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_GFX_Library/fontconvert/::1777697654
-fontconvert_win.md::TextFile::-1::1777697654::0::1::::<><><>0<>0<><>::
-::res://Documents/Arduino/libraries/Adafruit_GFX_Library/Fonts/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_SSD1306/::1777697654
-CMakeLists.txt::TextFile::-1::1777697654::0::1::::<><><>0<>0<><>::
-license.txt::TextFile::-1::1777697654::0::1::::<><><>0<>0<><>::
-README.md::TextFile::-1::1777697654::0::1::::<><><>0<>0<><>::
-::res://Documents/Arduino/libraries/Adafruit_SSD1306/examples/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_SSD1306/examples/OLED_featherwing/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_SSD1306/examples/ssd1306_64x32_i2c/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_SSD1306/examples/ssd1306_128x32_i2c/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_SSD1306/examples/ssd1306_128x32_spi/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_SSD1306/examples/ssd1306_128x64_i2c/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_SSD1306/examples/ssd1306_128x64_spi/::1777697654
-::res://Documents/Arduino/libraries/Adafruit_SSD1306/scripts/::1777701859
-splash1.png::CompressedTexture2D::2818237063971473605::1777697654::1777701859::1::::<><><>0<>0<>8754c71e25b239a656252b7b39fec2fa<>res://.godot/imported/splash1.png-8f4bf8d492980f079d23641ed1ed3a50.ctex::
-splash2.png::CompressedTexture2D::3305875690517392869::1777697654::1777701859::1::::<><><>0<>0<>49c8eb8e4f4b660c17d90d2ab35f29b4<>res://.godot/imported/splash2.png-af84508e725da5057f51ef6f012be2e2.ctex::
-::res://Documents/AutoHotkey/::1777697654
-::res://Documents/bat-man-farms-aura/::1777697656
-::res://Documents/farmer/::1777697658
-::res://Documents/first-rpg/::1777697658
-::res://Documents/gravi/::1777697659
-::res://Documents/gwenchana/::1777701859
-Gwenchana.jpg::CompressedTexture2D::912792362143612205::1777697659::1777701859::1::::<><><>0<>0<>62182695b6cdbe57ab95117eb5924212<>res://.godot/imported/Gwenchana.jpg-900b7a824b3c2c018d28aed97db2659e.ctex::
-More Info.txt::TextFile::-1::1777697659::0::1::::<><><>0<>0<><>::
-::res://Documents/it-follows/::1777697660
-::res://Documents/KiCad/::1777697654
-::res://Documents/KiCad/9.0/::1777697654
-::res://Documents/KiCad/9.0/3rdparty/::1777697656
-::res://Documents/KiCad/9.0/3rdparty/3dmodels/::1777697654
-::res://Documents/KiCad/9.0/3rdparty/3dmodels/com_github_ebastler_marbastlib/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/::1777697656
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-choc.pretty/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-he.pretty/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-hitek.pretty/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-mx.pretty/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-various.pretty/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-xp-alps.pretty/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-xp-choc.pretty/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-xp-gateron_lp.pretty/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-xp-hitek.pretty/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-xp-mx.pretty/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-xp-plate-mx.pretty/::1777697655
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-xp-promicroish.pretty/::1777697656
-::res://Documents/KiCad/9.0/3rdparty/footprints/com_github_ebastler_marbastlib/marbastlib-xp-various.pretty/::1777697656
-::res://Documents/KiCad/9.0/3rdparty/plugins/::1777697656
-::res://Documents/KiCad/9.0/3rdparty/plugins/app_freerouting_kicad-plugin/::1777701859
-icon_24x24.png::CompressedTexture2D::3016240940202018655::1777697656::1777701859::1::::<><><>0<>0<>f1c3ea696bcc4896c852fd878e9b9505<>res://.godot/imported/icon_24x24.png-a0397e17d40923e998f2421c3b2929fd.ctex::
-plugin.ini::TextFile::-1::1777697656::0::1::::<><><>0<>0<><>::
-::res://Documents/KiCad/9.0/3rdparty/plugins/app_freerouting_kicad-plugin/__pycache__/::1777697656
-::res://Documents/KiCad/9.0/3rdparty/plugins/app_freerouting_kicad-plugin/jar/::1777697656
-::res://Documents/KiCad/9.0/3rdparty/plugins/app_freerouting_kicad-plugin/res/::1777697656
-::res://Documents/KiCad/9.0/3rdparty/plugins/com_github_ebastler_connect-traces/::1777701859
-connect.png::CompressedTexture2D::5671909501455027713::1777697656::1777701859::1::::<><><>0<>0<>18e5eef081118c9d9ac99050f85ab8a2<>res://.godot/imported/connect.png-d06cee39779b1e34fd280a7edebba662.ctex::
-::res://Documents/KiCad/9.0/3rdparty/plugins/com_github_ebastler_connect-traces/__pycache__/::1777697656
-::res://Documents/KiCad/9.0/3rdparty/resources/::1777697656
-::res://Documents/KiCad/9.0/3rdparty/resources/app_freerouting_kicad-plugin/::1777701859
-icon.png::CompressedTexture2D::6676217543282643588::1777697656::1777701859::1::::<><><>0<>0<>1b00b3cfa87760246774204baca1ef88<>res://.godot/imported/icon.png-5439230dfbc242ee0ab4e5cd75c63229.ctex::
-::res://Documents/KiCad/9.0/3rdparty/resources/com_github_ebastler_connect-traces/::1777701859
-icon.png::CompressedTexture2D::2312459337413388938::1777697656::1777701859::1::::<><><>0<>0<>46c267b427baa604e853cffd4dd1211a<>res://.godot/imported/icon.png-d0d8866657dda09b6752cc8e568d5ceb.ctex::
-::res://Documents/KiCad/9.0/3rdparty/resources/com_github_ebastler_marbastlib/::1777701859
-icon.png::CompressedTexture2D::6941928462208383464::1777697656::1777701859::1::::<><><>0<>0<>c6336203071c6a87c09f1dd73b4146f9<>res://.godot/imported/icon.png-f61f18aef10f347a3f51b48ea3e2a592.ctex::
-::res://Documents/KiCad/9.0/3rdparty/symbols/::1777697656
-::res://Documents/KiCad/9.0/3rdparty/symbols/com_github_ebastler_marbastlib/::1777697656
-::res://Documents/mini-game-hub/::1777697660
-::res://Documents/pet--simu/::1777697660
-::res://Documents/Sound Recordings/::1777697656
-::res://Documents/switch-fast/::1777697660
-::res://Documents/temporal/::1777697660
 ::res://scenes/::1777690188
 ::res://scenes/Player/::1777702317
 player.tscn::PackedScene::7408632569155394088::1777702317::0::1::::<><><>0<>0<><>::uid://b5jqe0qbqko2x::::res://scripts/player.gd<>uid://dyl5ke4jxypvd::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png
-::res://scenes/test/::1777702755
-test_map.tscn::PackedScene::7386310831662738746::1777702755::0::1::::<><><>0<>0<><>::uid://3h3iec6v7vx8::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Water/batman_water.png<>uid://b7a1l5veedwoa::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://b41vpknv2myc6::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/ele.png<>uid://c22if1uh64hx7::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://2n6n3scedwvs::::res://assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>uid://bn3comcv86h2x::::res://assets/Tiny Swords (Update 010)/Deco/09.png<>uid://d0rnopvja31f1::::res://assets/Tiny Swords (Update 010)/Deco/06.png<>uid://ob02voe3nuvi::::res://assets/Tiny Swords (Update 010)/Deco/08.png<>uid://dds2di8fhqbgi::::res://scenes/Player/player.tscn
+::res://scenes/test/::1777729897
+test_map.tscn::PackedScene::7386310831662738746::1777729897::0::1::::<><><>0<>0<><>::uid://3h3iec6v7vx8::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Water/batman_water.png<>uid://b7a1l5veedwoa::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://b41vpknv2myc6::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/ele.png<>uid://c22if1uh64hx7::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://2n6n3scedwvs::::res://assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>uid://bn3comcv86h2x::::res://assets/Tiny Swords (Update 010)/Deco/09.png<>uid://d0rnopvja31f1::::res://assets/Tiny Swords (Update 010)/Deco/06.png<>uid://ob02voe3nuvi::::res://assets/Tiny Swords (Update 010)/Deco/08.png<>uid://dds2di8fhqbgi::::res://scenes/Player/player.tscn
 ::res://scripts/::1777689252
 player.gd::GDScript::4511645345548344789::1777689252::0::1::::<>CharacterBody2D<><>0<>0<><>::

@@ -1,6 +1,0 @@
-extends Area2D
-
-
-
-	
-	
