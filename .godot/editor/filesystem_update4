@@ -1,6 +1,4 @@
 res://scenes/Player/enemy.tscn
-res://scenes/effects/death.gd
-res://scenes/Player/enemy.gd
+res://scripts/player.gd
 res://scenes/test/test_map.tscn
-res://scenes/effects/death.tscn
-res://scenes/Player/player.tscn
+res://scenes/Player/enemy.gd

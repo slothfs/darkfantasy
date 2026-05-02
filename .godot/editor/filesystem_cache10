@@ -1,8 +1,8 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777735557
+::res://::1777739526
 icon.svg::CompressedTexture2D::994323473656230032::1777633554::1777646648::1::::<><><>0<>0<>3a846a33c836ae142884fe799f0c602c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1777634023::0::1::::<><><>0<>0<><>::
-::res://addons/::1777686670
+::res://addons/::1777739378
 ::res://addons/godot_super-wakatime/::1777686671
 api_key_prompt.tscn::PackedScene::3919262858641749045::1777686670::0::1::::<><><>0<>0<><>::
 counter.tscn::PackedScene::6849360014225833986::1777686670::0::1::::<><><>0<>0<><>::
@@ -11,7 +11,36 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1777686671::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1777686671::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1777686670::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1777686671::0::1::::<>RefCounted<><>0<>0<><>::
-::res://assets/::1777735914
+::res://addons/ziva_agent/::1777739378
+README.md::TextFile::-1::1777739378::0::1::::<><><>0<>0<><>::
+ziva_agent.gdextension::GDExtension::4529844308398739034::1777739378::0::1::::<><><>0<>0<><>::
+::res://addons/ziva_agent/audio/::1777739378
+done-sound.wav::AudioStreamWAV::6263419649835632683::1777739378::1777739378::1::::<><><>0<>0<>2a1cb803f2cd95c42779f19a21c98553<>res://.godot/imported/done-sound.wav-3eeaf711bda61d5af4827d5c3ffab946.sample::
+knock.wav::AudioStreamWAV::8656776278817288864::1777739378::1777739378::1::::<><><>0<>0<>f9cfa9058e976ee4e066f341f18e5d17<>res://.godot/imported/knock.wav-31648ca1edd44a0c8b9c0f29736e57fd.sample::
+pop-bright.wav::AudioStreamWAV::7022450118045244624::1777739378::1777739378::1::::<><><>0<>0<>e9ce8559035a45f6d858211de3ad3558<>res://.godot/imported/pop-bright.wav-4f78f50ac775a336eb4509fa6338da62.sample::
+soft-ping.wav::AudioStreamWAV::3136303491189835181::1777739378::1777739378::1::::<><><>0<>0<>851a6632d6035a1c35b94a17b0573615<>res://.godot/imported/soft-ping.wav-f06a625c73b9172a7aaafcfae3fdfaf4.sample::
+tink.wav::AudioStreamWAV::1774716598932358791::1777739378::1777739378::1::::<><><>0<>0<>6e99c497887440643d891b1283e42e1f<>res://.godot/imported/tink.wav-04a763742a4299b2f8a5909b483a07c9.sample::
+xylophone.wav::AudioStreamWAV::4667850942121343061::1777739378::1777739378::1::::<><><>0<>0<>48828ec86aab11108ebbe031786ffc3b<>res://.godot/imported/xylophone.wav-ef2148beb4c0dd59ee53e416397900eb.sample::
+::res://addons/ziva_agent/bin/::1777739378
+::res://addons/ziva_agent/bin/windows_x86_64/::1777739526
+::res://addons/ziva_agent/bin-deps/::1777739378
+::res://addons/ziva_agent/db/::1777739378
+::res://addons/ziva_agent/db/migrations/::1777739378
+::res://addons/ziva_agent/db/migrations/meta/::1777739378
+_journal.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+0000_snapshot.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+0001_snapshot.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+0002_snapshot.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+0003_snapshot.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+0004_snapshot.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+0005_snapshot.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+0006_snapshot.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+0007_snapshot.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+0008_snapshot.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+0009_snapshot.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+0010_snapshot.json::JSON::-1::1777739378::0::1::::<><><>0<>0<><>::
+::res://addons/ziva_agent/dist/::1777739378
+::res://assets/::1777735917
 Dead.png::CompressedTexture2D::6164229928688260311::1777735806::1777735917::1::::<><><>0<>0<>ceb32757da4ebd0afb8ffcfd63129899<>res://.godot/imported/Dead.png-29ce68f874dbc43f4f9778a714b32623.ctex::
 New Piskel-1.png.png::CompressedTexture2D::8624255718792262299::1777729974::1777729979::1::::<><><>0<>0<>b6c669a88c8dea7c5ce2968f6e9eb6b3<>res://.godot/imported/New Piskel-1.png.png-17c8f2de147b048af02c1d17f056acee.ctex::
 ::res://assets/Tiny Swords (Update 010)/::1777735812
@@ -282,12 +311,25 @@ Ribbon_Yellow_Connection_Right.png::CompressedTexture2D::7742078943435880649::17
 Ribbon_Yellow_Connection_Right_Pressed.png::CompressedTexture2D::7385954234758620415::1777651350::1777651376::1::::<><><>0<>0<>50e3980adc5d57642a8855befe1a3cd2<>res://.godot/imported/Ribbon_Yellow_Connection_Right_Pressed.png-c4359715a65f7f37b69dcf81305c3971.ctex::
 Ribbon_Yellow_Connection_Up.png::CompressedTexture2D::3103364104582721792::1777651350::1777651376::1::::<><><>0<>0<>75df1df4710f1bc852936f0eeba4ea88<>res://.godot/imported/Ribbon_Yellow_Connection_Up.png-5b0c5965f8dddc729857179090cd2694.ctex::
 Ribbon_Yellow_Connection_Up_Pressed.png::CompressedTexture2D::9170080679231980269::1777651350::1777651376::1::::<><><>0<>0<>484c4ca64d48cce4f1cbbb2ab8621c16<>res://.godot/imported/Ribbon_Yellow_Connection_Up_Pressed.png-9450375ad0567d2d0681d2238acbbd9e.ctex::
-::res://scenes/::1777690188
-::res://scenes/Player/::1777733185
-enemy.gd::GDScript::5838723475589418917::1777732943::0::1::::<>CharacterBody2D<><>0<>0<><>::
-enemy.tscn::PackedScene::2723128738000539521::1777733185::0::1::::<><><>0<>0<><>::uid://cpgk6mrwvdqlh::::res://scenes/Player/enemy.gd<>uid://dokgcnc7kmw0t::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png
-player.tscn::PackedScene::7408632569155394088::1777733112::0::1::::<><><>0<>0<><>::uid://b5jqe0qbqko2x::::res://scripts/player.gd<>uid://dyl5ke4jxypvd::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png
-::res://scenes/test/::1777733415
-test_map.tscn::PackedScene::7386310831662738746::1777733415::0::1::::<><><>0<>0<><>::uid://3h3iec6v7vx8::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Water/batman_water.png<>uid://du4wh42rujv76::::res://assets/New Piskel-1.png.png<>uid://b7a1l5veedwoa::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://b41vpknv2myc6::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/ele.png<>uid://cthmj66olpc1a::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c22if1uh64hx7::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://2n6n3scedwvs::::res://assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>uid://bn3comcv86h2x::::res://assets/Tiny Swords (Update 010)/Deco/09.png<>uid://d0rnopvja31f1::::res://assets/Tiny Swords (Update 010)/Deco/06.png<>uid://ob02voe3nuvi::::res://assets/Tiny Swords (Update 010)/Deco/08.png<>uid://dds2di8fhqbgi::::res://scenes/Player/player.tscn<>uid://be2dsdr3rmavh::::res://scenes/Player/enemy.tscn
+::res://scenes/::1777736240
+::res://scenes/effects/::1777737518
+death.gd::GDScript::8646816813321775503::1777737475::0::1::::<>Node2D<><>0<>0<><>::
+death.tscn::PackedScene::2103648455895476037::1777737518::0::1::::<><><>0<>0<><>::uid://dvgt2r5rf7ko2::::res://scenes/effects/death.gd
+::res://scenes/Player/::1777739380
+enemy.gd::GDScript::5838723475589418917::1777737477::0::1::::<>CharacterBody2D<><>0<>0<><>::
+enemy.tscn::PackedScene::2723128738000539521::1777739380::0::1::::<><><>0<>0<><>::uid://cpgk6mrwvdqlh::::res://scenes/Player/enemy.gd<>uid://dokgcnc7kmw0t::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png
+player.tscn::PackedScene::7408632569155394088::1777739085::0::1::::<><><>0<>0<><>::uid://b5jqe0qbqko2x::::res://scripts/player.gd<>uid://dyl5ke4jxypvd::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png
+::res://scenes/test/::1777737474
+test_map.tscn::PackedScene::7386310831662738746::1777737474::0::1::::<><><>0<>0<><>::uid://3h3iec6v7vx8::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Water/batman_water.png<>uid://du4wh42rujv76::::res://assets/New Piskel-1.png.png<>uid://b7a1l5veedwoa::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://b41vpknv2myc6::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/ele.png<>uid://cthmj66olpc1a::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c22if1uh64hx7::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://2n6n3scedwvs::::res://assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>uid://bn3comcv86h2x::::res://assets/Tiny Swords (Update 010)/Deco/09.png<>uid://d0rnopvja31f1::::res://assets/Tiny Swords (Update 010)/Deco/06.png<>uid://ob02voe3nuvi::::res://assets/Tiny Swords (Update 010)/Deco/08.png<>uid://dds2di8fhqbgi::::res://scenes/Player/player.tscn<>uid://be2dsdr3rmavh::::res://scenes/Player/enemy.tscn
 ::res://scripts/::1777733361
 player.gd::GDScript::4511645345548344789::1777733361::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://ziva_installer/::1777739370
+installer_dock.gd::GDScript::2778777032497652476::1777739369::0::1::::<>VBoxContainer<><>0<>1<><>::
+installer_download.gd::GDScript::4501462038698553583::1777739370::0::1::::<>Node<><>0<>1<><>::
+installer_plugin.gd::GDScript::3983678632605676243::1777739369::0::1::::<>EditorPlugin<><>0<>1<><>::
+plugin.cfg::TextFile::-1::1777739369::0::1::::<><><>0<>0<><>::
+test_api.gd::GDScript::770504815425148993::1777739370::0::1::::<>Node<><>0<>1<><>::
+ziva_installer.gdextension::GDExtension::7948685624687893253::1777739369::0::1::::<><><>0<>0<><>::
+::res://ziva_installer/bin/::1777739523
+::res://ziva_installer/bin/libziva_installer.macos.debug.framework/::1777739369
+::res://ziva_installer/bin/libziva_installer.macos.release.framework/::1777739370

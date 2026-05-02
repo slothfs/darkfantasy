@@ -37,11 +37,14 @@ func movement_loop() -> void:
 	set_velocity(motion)
 	move_and_slide()
 	
-	if state == State.IDLE or State.RUN:
-		if move_direction.x < -0.01:
-			$Sprite2D.flip_h = true
-		elif move_direction.x > 0.01:
-			$Sprite2D.flip_h = false
+	if state == State.IDLE or state == State.RUN:
+		# Horizontal flip for left/right movement
+		if abs(move_direction.x) > 0.01:
+			$Sprite2D.flip_h = move_direction.x < 0
+
+		# Keep the sprite upright even when moving vertically.
+		$Sprite2D.flip_v = false
+
 
 	if motion != Vector2.ZERO and state == State.IDLE:
 		state = State.RUN
@@ -67,13 +70,18 @@ func attack() -> void:
 	
 	var mouse_pos: Vector2 = get_global_mouse_position()
 	var attack_dir: Vector2 = (mouse_pos - global_position).normalized()
-	$Sprite2D.flip_h = attack_dir.x < 0 and abs(attack_dir.x) >= abs(attack_dir.y)
+	# Horizontal flipping based on attack direction only
+	if abs(attack_dir.x) > 0.01:
+		$Sprite2D.flip_h = attack_dir.x < 0
+	# Keep the sprite upright
+	$Sprite2D.flip_v = false
 	animation_tree.set("parameters/attack/BlendSpace2D/blend_position", attack_dir)
 	update_animation()
 	
 	
 	await get_tree().create_timer(attack_speed).timeout
 	state = State.IDLE
+	update_animation()
 
 
 func _on_hit_box_area_entered(area: Area2D) -> void:
