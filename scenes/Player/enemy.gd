@@ -1,24 +1,27 @@
 extends CharacterBody2D
 
+enum State {
+	IDLE,
+	PATROL,
+	CHASE,
+	ATTACK,
+	RETREAT,
+	DEAD
+}
+
 @export_category("Stats")
-@export var hitpoints: int = 180
-@export_category("Realted Scenes")
-@export var death_packed: PackedScene = preload("res://scenes/effects/death.tscn")
+@export var hitpoints: int = 200
+@export var max_hitpoints: int = 200
+@export var move_speed: float = 90.0
+@export var chase_speed: float = 140.0
+@export var retreat_speed: float = 170.0
+@export var attack_damage: int = 25
 
+@export_category("Ai")
+@export var vision_distance: float = 260.0
+@export var attack_range: float = 45.0
+@export var attack_cooldown: float = 1.0
+@export var patrol_radius: float = 180.0
 
-func take_damage(damage_taken: int) -> void:
-	hitpoints -= damage_taken
-	if hitpoints <= 0:
-		death()
-		
-		
-func death() -> void:
-	if death_packed:
-		var death_scene: Node2D = death_packed.instantiate()
-		death_scene.position = global_position + Vector2(0.0, -32.0)
-		var parent = get_parent()
-		if parent and parent.name == "Enemies":
-			parent.add_child(death_scene)
-		else:
-			get_tree().current_scene.add_child(death_scene)
-	queue_free()
+@export_category("Related Scenes")
+@export var death_packed: Packed

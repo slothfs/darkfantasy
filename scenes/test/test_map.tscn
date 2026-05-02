@@ -10,7 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://bn3comcv86h2x" path="res://assets/Tiny Swords (Update 010)/Deco/09.png" id="6_m4fpm"]
 [ext_resource type="Texture2D" uid="uid://d0rnopvja31f1" path="res://assets/Tiny Swords (Update 010)/Deco/06.png" id="7_wl5op"]
 [ext_resource type="Texture2D" uid="uid://ob02voe3nuvi" path="res://assets/Tiny Swords (Update 010)/Deco/08.png" id="8_apo36"]
-[ext_resource type="PackedScene" uid="uid://dds2di8fhqbgi" path="res://scenes/Player/player.tscn" id="9_8oaxb"]
+[ext_resource type="PackedScene" path="res://scenes/Player/player.tscn" id="9_8oaxb"]
 [ext_resource type="PackedScene" uid="uid://be2dsdr3rmavh" path="res://scenes/Player/enemy.tscn" id="12_8oaxb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ofsys"]
@@ -415,10 +415,13 @@ tile_set = SubResource("TileSet_m4fpm")
 [node name="Player" parent="." unique_id=805744527 instance=ExtResource("9_8oaxb")]
 y_sort_enabled = true
 position = Vector2(396, 822)
+speed = null
+attack_speed = null
+attack_damage = null
 
 [node name="Enemies" type="Node2D" parent="." unique_id=1754935794]
 
-[node name="enemy" parent="Enemies" unique_id=923518308 instance=ExtResource("12_8oaxb")]
+[node name="Enemy1" parent="Enemies" unique_id=923518308 instance=ExtResource("12_8oaxb")]
 position = Vector2(790, 475)
 
 [node name="Effects" type="Node2D" parent="." unique_id=1354643578]

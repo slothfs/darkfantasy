@@ -186,8 +186,18 @@ graph_offset = Vector2(73.13599, 0)
 radius = 21.0
 height = 68.0
 
-[node name="enemy" type="CharacterBody2D" unique_id=805744527]
+[node name="Enemies" type="CharacterBody2D" unique_id=805744527]
 script = ExtResource("1_e3g5n")
+hitpoints = null
+max_hitpoints = null
+move_speed = null
+chase_speed = null
+retreat_speed = null
+attack_damage = null
+vision_distance = null
+attack_range = null
+attack_cooldown = null
+patrol_radius = null
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=479798107]
 position = Vector2(0, -32)

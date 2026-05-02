@@ -86,3 +86,16 @@ func attack() -> void:
 
 func _on_hit_box_area_entered(area: Area2D) -> void:
 	area.owner.take_damage(attack_damage)
+	export_category("Player Stats")
+@export var hitpoints: int = 100
+
+
+func take_damage(damage_taken: int) -> void:
+	hitpoints -= damage_taken
+
+	if hitpoints <= 0:
+		death()
+
+
+func death() -> void:
+	queue_free()
