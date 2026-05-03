@@ -18,6 +18,7 @@ all the files and scripts are well managed so it wont be difficulty for to get s
 # playable or demo:
 https://abishek-kk.itch.io/rpg-arena
 game is supposed to play in full screen in 1980 * 1080..
+make sure to open the game in fulscreen for good experince.
 
 # gameplay: 
 <img width="1847" height="1045" alt="image" src="https://github.com/user-attachments/assets/333a379a-0495-4871-b013-0175d661ce2f" />
