@@ -1,3 +1,7 @@
+AnimatedSprite2D
+CharacterBody2D
+Timer
+ProgressBar
 Node2D
 AnimationPlayer
 Sprite2D
@@ -6,9 +10,6 @@ Area2D
 TileMapLayer
 Camera2D
 AnimationTree
-CharacterBody2D
 ParallaxLayer
 GraphFrame
 Parallax2D
-GPUParticlesAttractorBox3D
-ParallaxBackground

@@ -14,8 +14,14 @@ utils.gd::GDScript::5251015809120159908::1777686671::0::1::::<>RefCounted<><>0<>
 ::res://assets/::1777735917
 Dead.png::CompressedTexture2D::6164229928688260311::1777735806::1777735917::1::::<><><>0<>0<>ceb32757da4ebd0afb8ffcfd63129899<>res://.godot/imported/Dead.png-29ce68f874dbc43f4f9778a714b32623.ctex::
 New Piskel-1.png.png::CompressedTexture2D::8624255718792262299::1777729974::1777729979::1::::<><><>0<>0<>b6c669a88c8dea7c5ce2968f6e9eb6b3<>res://.godot/imported/New Piskel-1.png.png-17c8f2de147b048af02c1d17f056acee.ctex::
-::res://assets/Tiny Swords (Update 010)/::1777735812
+::res://assets/Tiny Swords (Update 010)/::1777770490
 Dead.png::CompressedTexture2D::7748001191302048413::1777735806::1777735812::1::::<><><>0<>0<>64e12933d5c834cce57fd61790908a82<>res://.godot/imported/Dead.png-9a140cc95d988a1630e2f06d4ece59bf.ctex::
+::res://assets/Tiny Swords (Update 010)/AngryPig/::1776676525
+Hit 1 (36x30).png::CompressedTexture2D::8262507481934280885::1776676525::1777770548::1::::<><><>0<>0<>8c0f82cd62f64bc788298be5d1d1d172<>res://.godot/imported/Hit 1 (36x30).png-fab70d4c55dd0d0e63891a976fb22c29.ctex::
+Hit 2 (36x30).png::CompressedTexture2D::461261392603756678::1776676525::1777770548::1::::<><><>0<>0<>bcbaf9236d0e9373415ae0050bcfd8ab<>res://.godot/imported/Hit 2 (36x30).png-539f870eee36290f71fedbb1c6b813c3.ctex::
+Idle (36x30).png::CompressedTexture2D::759924282142518217::1776676525::1777770548::1::::<><><>0<>0<>4ead12d2ea714b01ee4dda093014c4ad<>res://.godot/imported/Idle (36x30).png-849634dd4d16af175dcd51a7cc08189c.ctex::
+Run (36x30).png::CompressedTexture2D::8849538623039509740::1776676525::1777770548::1::::<><><>0<>0<>71aed529cbbe43d18497f1a009d28134<>res://.godot/imported/Run (36x30).png-7666f51632e28640bb4c0b7593dde888.ctex::
+Walk (36x30).png::CompressedTexture2D::5443254126289383272::1776676525::1777770548::1::::<><><>0<>0<>65f448cc22df0f43eb73854311641759<>res://.godot/imported/Walk (36x30).png-0c05d83d246e843e03bef6c920130a7a.ctex::
 ::res://assets/Tiny Swords (Update 010)/Deco/::1777651377
 01.png::CompressedTexture2D::4380793445034655396::1777651351::1777651377::1::::<><><>0<>0<>7a6211529c64fecb0c1bfca5896edddc<>res://.godot/imported/01.png-049c0424cf5b674340b69958ba3e115b.ctex::
 02.png::CompressedTexture2D::358785943315504754::1777651351::1777651377::1::::<><><>0<>0<>71fe4f17ee26b301b72d78c822828a57<>res://.godot/imported/02.png-bf02138d189e277be665ad8a587b1c8f.ctex::
@@ -286,11 +292,11 @@ Ribbon_Yellow_Connection_Up_Pressed.png::CompressedTexture2D::917008067923198026
 ::res://scenes/effects/::1777737518
 death.gd::GDScript::8646816813321775503::1777737475::0::1::::<>Node2D<><>0<>0<><>::
 death.tscn::PackedScene::2103648455895476037::1777737518::0::1::::<><><>0<>0<><>::uid://dvgt2r5rf7ko2::::res://scenes/effects/death.gd
-::res://scenes/Player/::1777743624
-enemy.gd::GDScript::5838723475589418917::1777743624::0::1::::<>CharacterBody2D<><>0<>0<><>::
-enemy.tscn::PackedScene::2723128738000539521::1777743624::0::1::::<><><>0<>0<><>::uid://cpgk6mrwvdqlh::::res://scenes/Player/enemy.gd<>uid://dokgcnc7kmw0t::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png
-player.tscn::PackedScene::-1::1777741732::0::1::::<><><>0<>0<><>::res://scripts/player.gd<>res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png
-::res://scenes/test/::1777743638
-test_map.tscn::PackedScene::7386310831662738746::1777743638::0::1::::<><><>0<>0<><>::uid://3h3iec6v7vx8::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Water/batman_water.png<>uid://du4wh42rujv76::::res://assets/New Piskel-1.png.png<>uid://b7a1l5veedwoa::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://b41vpknv2myc6::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/ele.png<>uid://cthmj66olpc1a::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c22if1uh64hx7::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://2n6n3scedwvs::::res://assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>uid://bn3comcv86h2x::::res://assets/Tiny Swords (Update 010)/Deco/09.png<>uid://d0rnopvja31f1::::res://assets/Tiny Swords (Update 010)/Deco/06.png<>uid://ob02voe3nuvi::::res://assets/Tiny Swords (Update 010)/Deco/08.png<>res://scenes/Player/player.tscn<>uid://be2dsdr3rmavh::::res://scenes/Player/enemy.tscn
-::res://scripts/::1777743625
-player.gd::GDScript::4511645345548344789::1777743625::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scenes/Player/::1777770204
+enemy.gd::GDScript::5838723475589418917::1777770204::0::1::::<>CharacterBody2D<><>0<>0<><>::
+enemy.tscn::PackedScene::2723128738000539521::1777768362::0::1::::<><><>0<>0<><>::uid://cpgk6mrwvdqlh::::res://scenes/Player/enemy.gd<>uid://dokgcnc7kmw0t::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png
+player.tscn::PackedScene::6097520071480717370::1777769948::0::1::::<><><>0<>0<><>::uid://b5jqe0qbqko2x::::res://scripts/player.gd<>uid://dyl5ke4jxypvd::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png
+::res://scenes/test/::1777770275
+test_map.tscn::PackedScene::7386310831662738746::1777770275::0::1::::<><><>0<>0<><>::uid://3h3iec6v7vx8::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Water/batman_water.png<>uid://du4wh42rujv76::::res://assets/New Piskel-1.png.png<>uid://b7a1l5veedwoa::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://b41vpknv2myc6::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/ele.png<>uid://cthmj66olpc1a::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c22if1uh64hx7::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://2n6n3scedwvs::::res://assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>uid://bn3comcv86h2x::::res://assets/Tiny Swords (Update 010)/Deco/09.png<>uid://d0rnopvja31f1::::res://assets/Tiny Swords (Update 010)/Deco/06.png<>uid://ob02voe3nuvi::::res://assets/Tiny Swords (Update 010)/Deco/08.png<>uid://cs4xjaaq2jvha::::res://scenes/Player/player.tscn<>uid://be2dsdr3rmavh::::res://scenes/Player/enemy.tscn
+::res://scripts/::1777770275
+player.gd::GDScript::4511645345548344789::1777770275::0::1::::<>CharacterBody2D<><>0<>0<><>::

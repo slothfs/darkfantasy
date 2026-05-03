@@ -27,8 +27,10 @@ func _unhandled_input(event: InputEvent) -> void:
 		attack()
 	
 func _physics_process(delta: float) -> void:
+	update_healthbar()
 	if not state == State.ATTACK:
 		movement_loop()
+
 	
 func movement_loop() -> void:
 	move_direction.x = int(Input.is_action_pressed("right")) - int(Input.is_action_pressed("left"))
@@ -84,9 +86,29 @@ func attack() -> void:
 	update_animation()
 
 
+func update_healthbar():
+	var healthbar = $HealthBar
+	healthbar.value = hitpoints
+	
+	if hitpoints >= 300:
+		healthbar.visible = false
+	else:
+		healthbar.visible = true 
+	
+	
+func _on_regin_timer_timeout() -> void:
+	if hitpoints < 300:
+		hitpoints = hitpoints + 20
+		if hitpoints > 300:
+			hitpoints = 300
+	if hitpoints <= 0:
+		hitpoints = 0
+
 func _on_hit_box_area_entered(area: Area2D) -> void:
-	area.owner.take_damage(attack_damage)
-	export_category("Player Stats")
+	if area.owner and area.owner.has_method("take_damage"):
+		area.owner.take_damage(attack_damage)
+		
+@export_category("Player Stats")
 @export var hitpoints: int = 100
 
 
@@ -98,4 +120,4 @@ func take_damage(damage_taken: int) -> void:
 
 
 func death() -> void:
-	queue_free()
+	get_tree().reload_current_scene()
