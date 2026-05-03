@@ -12,8 +12,10 @@ enum State {
 @export var attack_speed: float = 0.6 
 @export var attack_damage: int = 60
 
+
 var state: State = State.IDLE
 var move_direction: Vector2 =  Vector2(0,0)
+var knockback_velocity: Vector2 = Vector2.ZERO
 
 @onready var animation_tree: AnimationTree = $AnimationTree
 @onready var animation_playback: AnimationNodeStateMachinePlayback = $AnimationTree["parameters/playback"]
@@ -30,6 +32,12 @@ func _physics_process(delta: float) -> void:
 	update_healthbar()
 	if not state == State.ATTACK:
 		movement_loop()
+		
+	if knockback_velocity.length() > 0.1:
+		velocity = knockback_velocity
+		knockback_velocity = knockback_velocity.move_toward(Vector2.ZERO, 600 * delta)
+		move_and_slide()
+		return
 
 	
 func movement_loop() -> void:
@@ -117,7 +125,10 @@ func take_damage(damage_taken: int) -> void:
 
 	if hitpoints <= 0:
 		death()
+		
+func apply_knockback(force: Vector2) -> void:
+	knockback_velocity = force
 
 
 func death() -> void:
-	get_tree().reload_current_scene()
+	queue_free()

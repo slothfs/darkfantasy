@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://ob02voe3nuvi" path="res://assets/Tiny Swords (Update 010)/Deco/08.png" id="8_apo36"]
 [ext_resource type="PackedScene" uid="uid://cs4xjaaq2jvha" path="res://scenes/Player/player.tscn" id="9_8oaxb"]
 [ext_resource type="PackedScene" uid="uid://be2dsdr3rmavh" path="res://scenes/Player/enemy.tscn" id="12_8oaxb"]
+[ext_resource type="PackedScene" uid="uid://cujp60uhatft" path="res://enemy_gob.tscn" id="13_ervli"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ofsys"]
 texture = ExtResource("1_apo36")
@@ -426,3 +427,7 @@ position = Vector2(1612, 425)
 
 [node name="Effects" type="Node2D" parent="." unique_id=1354643578]
 unique_name_in_owner = true
+
+[node name="enemy-gob" parent="." unique_id=44125938 instance=ExtResource("13_ervli")]
+position = Vector2(607, 557)
+scale = Vector2(2, 2)
