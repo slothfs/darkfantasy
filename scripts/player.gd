@@ -16,6 +16,7 @@ enum State {
 var state: State = State.IDLE
 var move_direction: Vector2 =  Vector2(0,0)
 var knockback_velocity: Vector2 = Vector2.ZERO
+var has_key: bool = false
 
 @onready var animation_tree: AnimationTree = $AnimationTree
 @onready var animation_playback: AnimationNodeStateMachinePlayback = $AnimationTree["parameters/playback"]

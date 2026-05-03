@@ -26,6 +26,10 @@ enum State {
 @export_category("Realted Scenes")
 @export var death_packed: PackedScene = preload("res://scenes/effects/death.tscn")
 
+@export_category("Drops")
+@export var drops_key: bool = true
+var key_scene: PackedScene = preload("res://scenes/key.tscn")
+
 @onready var animation_tree: AnimationTree = $AnimationTree
 @onready var playback: AnimationNodeStateMachinePlayback = $AnimationTree["parameters/playback"]
 @onready var sprite: Sprite2D = $Sprite2D
@@ -167,9 +171,23 @@ func death() -> void:
 
 	await get_tree().create_timer(0.8).timeout
 
+	var fx = null
 	if death_packed:
-		var fx = death_packed.instantiate()
+		fx = death_packed.instantiate()
 		fx.global_position = global_position
 		get_tree().current_scene.add_child(fx)
+		
+		sprite.visible = false
+		if has_node("HurtBox/CollisionShape2D"):
+			$HurtBox/CollisionShape2D.set_deferred("disabled", true)
+		if has_node("CollisionShape2D"):
+			$CollisionShape2D.set_deferred("disabled", true)
+			
+		await fx.tree_exited
+
+	if drops_key and key_scene:
+		var key_instance = key_scene.instantiate()
+		key_instance.global_position = global_position
+		get_tree().current_scene.add_child(key_instance)
 
 	queue_free()

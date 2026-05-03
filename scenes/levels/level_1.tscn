@@ -13,6 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://cs4xjaaq2jvha" path="res://scenes/Player/player.tscn" id="11_ndtll"]
 [ext_resource type="PackedScene" uid="uid://be2dsdr3rmavh" path="res://scenes/Player/enemy.tscn" id="12_7h2jl"]
 [ext_resource type="PackedScene" uid="uid://b0lf2vb8fse18" path="res://scenes/key_notify.tscn" id="13_dnkej"]
+[ext_resource type="Script" uid="uid://8ylyvql6r5f7" path="res://scripts/door.gd" id="15_np2pn"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mqh5v"]
 texture = ExtResource("1_iav0o")
@@ -551,6 +552,7 @@ position = Vector2(1090, 443)
 unique_name_in_owner = true
 
 [node name="Door" type="Area2D" parent="." unique_id=1605386216]
+script = ExtResource("15_np2pn")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Door" unique_id=274443875]
 position = Vector2(1602.9999, 547)
@@ -564,7 +566,3 @@ color = Color(0.37376618, 0.56873894, 1, 1)
 texture = SubResource("GradientTexture2D_mm8aj")
 
 [node name="KeyNotify" parent="." unique_id=949298729 instance=ExtResource("13_dnkej")]
-offset_left = 1501.0
-offset_top = -64.0
-offset_right = 1501.0
-offset_bottom = -64.0
