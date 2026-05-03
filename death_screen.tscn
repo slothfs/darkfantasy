@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://bujh75t2gx6xc"]
+
+[ext_resource type="Shader" uid="uid://s0rt7p17rycy" path="res://scripts/deathBGTOP.gdshader" id="1_if853"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ex68u"]
+shader = ExtResource("1_if853")
+
+[node name="DeathScreen" type="CanvasLayer" unique_id=1885541740]
+
+[node name="BG" type="ColorRect" parent="." unique_id=1255245265]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MenuBg" type="ColorRect" parent="." unique_id=1603400485]
+offset_left = 554.0
+offset_top = 128.0
+offset_right = 1244.0
+offset_bottom = 933.0
+color = Color(0, 0, 0, 1)
+
+[node name="Menu" type="ColorRect" parent="." unique_id=851477772]
+material = SubResource("ShaderMaterial_ex68u")
+offset_left = 626.0
+offset_top = 189.0
+offset_right = 1187.0
+offset_bottom = 852.0
+color = Color(0.26666668, 0, 0.26666668, 1)

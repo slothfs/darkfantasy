@@ -19,6 +19,11 @@ run/main_scene="uid://chu4jbv752w7v"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Fade="*res://scenes/fade.tscn"
+AudioController="*res://scripts/audio_controller.gd"
+
 [display]
 
 window/size/viewport_width=1920

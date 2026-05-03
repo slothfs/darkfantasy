@@ -63,6 +63,9 @@ func movement_loop() -> void:
 	elif motion == Vector2.ZERO and state == State.RUN:
 		state = State.IDLE
 		update_animation()
+		
+	if state == State.RUN and Engine.get_frames_drawn() % 20 == 0:
+		AudioController.play_walk()
 
 
 func update_animation() -> void:
@@ -78,6 +81,9 @@ func attack() -> void:
 	if state == State.ATTACK:
 		return
 	state = State.ATTACK
+	
+	AudioController.play_attack()
+
 	
 	var mouse_pos: Vector2 = get_global_mouse_position()
 	var attack_dir: Vector2 = (mouse_pos - global_position).normalized()
@@ -123,6 +129,7 @@ func _on_hit_box_area_entered(area: Area2D) -> void:
 
 func take_damage(damage_taken: int) -> void:
 	hitpoints -= damage_taken
+	AudioController.play_player_hurt()
 
 	if hitpoints <= 0:
 		death()

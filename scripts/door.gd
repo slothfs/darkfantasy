@@ -30,9 +30,10 @@ func _hide_alert() -> void:
 		current_alert = null
 
 func _transition_level() -> void:
+	AudioController.play_door()
 	var next_level = "res://scenes/levels/level_2.tscn"
 	if ResourceLoader.exists(next_level):
-		get_tree().change_scene_to_file(next_level)
+		Fade.transition_to_scene(next_level)
 	else:
 		print("Next level not found, restarting current level.")
-		get_tree().reload_current_scene()
+		Fade.transition_to_scene(get_tree().current_scene.scene_file_path)

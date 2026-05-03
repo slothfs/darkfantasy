@@ -1,9 +1,9 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777803046
+::res://::1777810850
 enemy_gob.tscn::PackedScene::182240149962781753::1777786630::0::1::::<><><>0<>0<><>::uid://clv5glyu8embr::::res://scripts/enemy_gob.gd<>uid://dpyoj5p2722rp::::res://assets/Tiny Swords (Update 010)/AngryPig/Hit 1 (36x30).png<>uid://k3d3vica6fwr::::res://assets/Tiny Swords (Update 010)/AngryPig/Idle (36x30).png<>uid://dyc1uxchdomq3::::res://assets/Tiny Swords (Update 010)/AngryPig/Run (36x30).png<>uid://cjs0un25kv2m3::::res://assets/Tiny Swords (Update 010)/AngryPig/Walk (36x30).png
 icon.svg::CompressedTexture2D::994323473656230032::1777633554::1777646648::1::::<><><>0<>0<>3a846a33c836ae142884fe799f0c602c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1777634023::0::1::::<><><>0<>0<><>::
-::res://addons/::1777785555
+::res://addons/::1777810744
 ::res://addons/godot_super-wakatime/::1777686671
 api_key_prompt.tscn::PackedScene::3919262858641749045::1777686670::0::1::::<><><>0<>0<><>::
 counter.tscn::PackedScene::6849360014225833986::1777686670::0::1::::<><><>0<>0<><>::
@@ -294,35 +294,47 @@ Ribbon_Yellow_Connection_Right.png::CompressedTexture2D::7742078943435880649::17
 Ribbon_Yellow_Connection_Right_Pressed.png::CompressedTexture2D::7385954234758620415::1777651350::1777651376::1::::<><><>0<>0<>50e3980adc5d57642a8855befe1a3cd2<>res://.godot/imported/Ribbon_Yellow_Connection_Right_Pressed.png-c4359715a65f7f37b69dcf81305c3971.ctex::
 Ribbon_Yellow_Connection_Up.png::CompressedTexture2D::3103364104582721792::1777651350::1777651376::1::::<><><>0<>0<>75df1df4710f1bc852936f0eeba4ea88<>res://.godot/imported/Ribbon_Yellow_Connection_Up.png-5b0c5965f8dddc729857179090cd2694.ctex::
 Ribbon_Yellow_Connection_Up_Pressed.png::CompressedTexture2D::9170080679231980269::1777651350::1777651376::1::::<><><>0<>0<>484c4ca64d48cce4f1cbbb2ab8621c16<>res://.godot/imported/Ribbon_Yellow_Connection_Up_Pressed.png-9450375ad0567d2d0681d2238acbbd9e.ctex::
-::res://scenes/::1777808361
+::res://scenes/::1777810731
 door_alert.tscn::PackedScene::7228997528153486557::1777784978::0::1::::<><><>0<>0<><>::
+fade.tscn::PackedScene::3167301605757077947::1777809972::0::1::::<><><>0<>0<><>::uid://dclw3wtualcpr::::res://scripts/fade.gd
 key.tscn::PackedScene::8840703534837080194::1777792292::0::1::::<><><>0<>0<><>::uid://8dv7o5dgiv5c::::res://scripts/key.gd<>uid://bd755toa6jqnu::::res://assets/key-white.png
 key_notify.tscn::PackedScene::4164202837379753829::1777785451::0::1::::<><><>0<>0<><>::uid://bd755toa6jqnu::::res://assets/key-white.png
-main_menu.tscn::PackedScene::5307227779328350117::1777802910::0::1::::<><><>0<>0<><>::uid://dvhxb7jllqiqo::::res://scripts/bg.gdshader<>uid://bkrllkdjrkfsb::::res://scenes/main_menu.gd<>uid://dyl5ke4jxypvd::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png<>uid://bnnt0ghkjx31m::::res://assets/bd_walk.png<>uid://bd755toa6jqnu::::res://assets/key-white.png<>uid://dingphpnsh05f::::res://assets/Tiny Swords (Update 010)/Dead.png
-main_menu.gd::GDScript::3124091602845776697::1777803016::0::1::::<>Control<><>0<>0<><>::
-level_menu.tscn::PackedScene::7128814984278274670::1777808361::0::1::::<><><>0<>0<><>::uid://dvhxb7jllqiqo::::res://scripts/bg.gdshader<>uid://meekywnkyixi::::res://scenes/level_menu_text.gdshader<>uid://b0sqri1w7nkdt::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.png<>uid://c2hjqbpcfdae7::::res://scenes/level_menu_buttons.gdshader<>uid://bd755toa6jqnu::::res://assets/key-white.png
-level_menu_text.gdshader::Shader::850785655733820342::1777808277::0::1::::<><><>0<>0<><>::
-level_menu_buttons.gdshader::Shader::6682965891321958416::1777807705::0::1::::<><><>0<>0<><>::
-::res://scenes/effects/::1777737518
-death.gd::GDScript::8646816813321775503::1777737475::0::1::::<>Node2D<><>0<>0<><>::
+level_menu.tscn::PackedScene::7128814984278274670::1777809090::0::1::::<><><>0<>0<><>::uid://dt102bvny18tq::::res://scripts/level_menu.gd<>uid://dvhxb7jllqiqo::::res://scripts/bg.gdshader<>uid://meekywnkyixi::::res://scenes/level_menu_text.gdshader<>uid://b0sqri1w7nkdt::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.png<>uid://c2hjqbpcfdae7::::res://scenes/level_menu_buttons.gdshader<>uid://bd755toa6jqnu::::res://assets/key-white.png
+level_menu_buttons.gdshader::Shader::6682965891321958416::1777810731::0::1::::<><><>0<>0<><>::
+level_menu_text.gdshader::Shader::850785655733820342::1777810731::0::1::::<><><>0<>0<><>::
+main_menu.gd::GDScript::3124091602845776697::1777810503::0::1::::<>Control<><>0<>0<><>::
+main_menu.tscn::PackedScene::5307227779328350117::1777810730::0::1::::<><><>0<>0<><>::uid://dvhxb7jllqiqo::::res://scripts/bg.gdshader<>uid://bkrllkdjrkfsb::::res://scenes/main_menu.gd<>uid://dyl5ke4jxypvd::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png<>uid://bnnt0ghkjx31m::::res://assets/bd_walk.png<>uid://bd755toa6jqnu::::res://assets/key-white.png<>uid://dingphpnsh05f::::res://assets/Tiny Swords (Update 010)/Dead.png
+::res://scenes/effects/::1777810575
+death.gd::GDScript::8646816813321775503::1777810575::0::1::::<>Node2D<><>0<>0<><>::
 death.tscn::PackedScene::2103648455895476037::1777737518::0::1::::<><><>0<>0<><>::uid://dvgt2r5rf7ko2::::res://scenes/effects/death.gd
-::res://scenes/levels/::1777795610
+::res://scenes/levels/::1777810503
+door2.gd::GDScript::7055362011921952149::1777810503::0::1::::<>Area2D<><>0<>0<><>::
+door3.gd::GDScript::6492962392097298838::1777810503::0::1::::<>Area2D<><>0<>0<><>::
 level_1.tscn::PackedScene::220509997433898360::1777786993::0::1::::<><><>0<>0<><>::uid://du4wh42rujv76::::res://assets/New Piskel-1.png.png<>uid://3h3iec6v7vx8::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Water/batman_water.png<>uid://b7a1l5veedwoa::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://cthmj66olpc1a::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://b41vpknv2myc6::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/ele.png<>uid://c22if1uh64hx7::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://2n6n3scedwvs::::res://assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>uid://bn3comcv86h2x::::res://assets/Tiny Swords (Update 010)/Deco/09.png<>uid://d0rnopvja31f1::::res://assets/Tiny Swords (Update 010)/Deco/06.png<>uid://ob02voe3nuvi::::res://assets/Tiny Swords (Update 010)/Deco/08.png<>uid://cs4xjaaq2jvha::::res://scenes/Player/player.tscn<>uid://be2dsdr3rmavh::::res://scenes/Player/enemy.tscn<>uid://b0lf2vb8fse18::::res://scenes/key_notify.tscn<>uid://8ylyvql6r5f7::::res://scripts/door.gd
 level_2.tscn::PackedScene::8512201263051563568::1777795391::0::1::::<><><>0<>0<><>::uid://du4wh42rujv76::::res://assets/New Piskel-1.png.png<>uid://3h3iec6v7vx8::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Water/batman_water.png<>uid://b7a1l5veedwoa::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://cthmj66olpc1a::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://b41vpknv2myc6::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/ele.png<>uid://c22if1uh64hx7::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://2n6n3scedwvs::::res://assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>uid://bn3comcv86h2x::::res://assets/Tiny Swords (Update 010)/Deco/09.png<>uid://d0rnopvja31f1::::res://assets/Tiny Swords (Update 010)/Deco/06.png<>uid://ob02voe3nuvi::::res://assets/Tiny Swords (Update 010)/Deco/08.png<>uid://djyy2jx8whav5::::res://assets/Clouds/Clouds.png<>uid://cs4xjaaq2jvha::::res://scenes/Player/player.tscn<>uid://cujp60uhatft::::res://enemy_gob.tscn<>uid://be2dsdr3rmavh::::res://scenes/Player/enemy.tscn<>uid://b0lf2vb8fse18::::res://scenes/key_notify.tscn<>uid://c7rw1tpppak74::::res://scenes/levels/door2.gd
 level_3.tscn::PackedScene::7333568994660005753::1777795417::0::1::::<><><>0<>0<><>::uid://du4wh42rujv76::::res://assets/New Piskel-1.png.png<>uid://3h3iec6v7vx8::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Water/batman_water.png<>uid://b7a1l5veedwoa::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://cthmj66olpc1a::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://b41vpknv2myc6::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/ele.png<>uid://c22if1uh64hx7::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://2n6n3scedwvs::::res://assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>uid://bn3comcv86h2x::::res://assets/Tiny Swords (Update 010)/Deco/09.png<>uid://d0rnopvja31f1::::res://assets/Tiny Swords (Update 010)/Deco/06.png<>uid://ob02voe3nuvi::::res://assets/Tiny Swords (Update 010)/Deco/08.png<>uid://cs4xjaaq2jvha::::res://scenes/Player/player.tscn<>uid://cujp60uhatft::::res://enemy_gob.tscn<>uid://be2dsdr3rmavh::::res://scenes/Player/enemy.tscn<>uid://cyrie3d03a2pm::::res://scenes/levels/door3.gd<>uid://b0lf2vb8fse18::::res://scenes/key_notify.tscn<>uid://djyy2jx8whav5::::res://assets/Clouds/Clouds.png
-door2.gd::GDScript::7055362011921952149::1777792240::0::1::::<>Area2D<><>0<>0<><>::
-door3.gd::GDScript::6492962392097298838::1777792666::0::1::::<>Area2D<><>0<>0<><>::
 level_4.tscn::PackedScene::6069724391462167435::1777795610::0::1::::<><><>0<>0<><>::uid://du4wh42rujv76::::res://assets/New Piskel-1.png.png<>uid://3h3iec6v7vx8::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Water/batman_water.png<>uid://b7a1l5veedwoa::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://cthmj66olpc1a::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://b41vpknv2myc6::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/ele.png<>uid://c22if1uh64hx7::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://2n6n3scedwvs::::res://assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>uid://bn3comcv86h2x::::res://assets/Tiny Swords (Update 010)/Deco/09.png<>uid://d0rnopvja31f1::::res://assets/Tiny Swords (Update 010)/Deco/06.png<>uid://ob02voe3nuvi::::res://assets/Tiny Swords (Update 010)/Deco/08.png<>uid://cs4xjaaq2jvha::::res://scenes/Player/player.tscn<>uid://be2dsdr3rmavh::::res://scenes/Player/enemy.tscn<>uid://cujp60uhatft::::res://enemy_gob.tscn<>uid://djyy2jx8whav5::::res://assets/Clouds/Clouds.png
-::res://scenes/Player/::1777785162
-enemy.gd::GDScript::5838723475589418917::1777785162::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scenes/Player/::1777810511
+enemy.gd::GDScript::5838723475589418917::1777810511::0::1::::<>CharacterBody2D<><>0<>0<><>::
 enemy.tscn::PackedScene::2723128738000539521::1777784493::0::1::::<><><>0<>0<><>::uid://cpgk6mrwvdqlh::::res://scenes/Player/enemy.gd<>uid://dokgcnc7kmw0t::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png
 player.tscn::PackedScene::6097520071480717370::1777777677::0::1::::<><><>0<>0<><>::uid://b5jqe0qbqko2x::::res://scripts/player.gd<>uid://dyl5ke4jxypvd::::res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png
 ::res://scenes/test/::1777795217
 test_map.tscn::PackedScene::7386310831662738746::1777795217::0::1::::<><><>0<>0<><>::uid://3h3iec6v7vx8::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Water/batman_water.png<>uid://du4wh42rujv76::::res://assets/New Piskel-1.png.png<>uid://b7a1l5veedwoa::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://b41vpknv2myc6::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/ele.png<>uid://cthmj66olpc1a::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c22if1uh64hx7::::res://assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://2n6n3scedwvs::::res://assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>uid://bn3comcv86h2x::::res://assets/Tiny Swords (Update 010)/Deco/09.png<>uid://d0rnopvja31f1::::res://assets/Tiny Swords (Update 010)/Deco/06.png<>uid://ob02voe3nuvi::::res://assets/Tiny Swords (Update 010)/Deco/08.png<>uid://cs4xjaaq2jvha::::res://scenes/Player/player.tscn<>uid://djyy2jx8whav5::::res://assets/Clouds/Clouds.png<>uid://be2dsdr3rmavh::::res://scenes/Player/enemy.tscn<>uid://cujp60uhatft::::res://enemy_gob.tscn
-::res://scripts/::1777800172
-door.gd::GDScript::2366488780375794714::1777784978::0::1::::<>Area2D<><>0<>0<><>::
-enemy_gob.gd::GDScript::5590103420571373203::1777775309::0::1::::<>CharacterBody2D<><>0<>0<><>::
-key.gd::GDScript::2323757957385998930::1777784656::0::1::::<>Node2D<><>0<>0<><>::
-player.gd::GDScript::4511645345548344789::1777784515::0::1::::<>CharacterBody2D<><>0<>0<><>::
-bg.gdshader::Shader::8649078383549507614::1777800172::0::1::::<><><>0<>0<><>::
-level_menu.gd::GDScript::8548090128650102602::1777808418::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/::1777810731
+audio_controller.gd::GDScript::8801802846528330173::1777810575::0::1::::<>Node<><>0<>0<><>::
+bg.gdshader::Shader::8649078383549507614::1777810731::0::1::::<><><>0<>0<><>::
+door.gd::GDScript::2366488780375794714::1777810503::0::1::::<>Area2D<><>0<>0<><>::
+enemy_gob.gd::GDScript::5590103420571373203::1777810511::0::1::::<>CharacterBody2D<><>0<>0<><>::
+fade.gd::GDScript::7323734855494355503::1777810660::0::1::::<>CanvasLayer<><>0<>0<><>::
+key.gd::GDScript::2323757957385998930::1777810553::0::1::::<>Node2D<><>0<>0<><>::
+level_menu.gd::GDScript::8548090128650102602::1777810503::0::1::::<>Control<><>0<>0<><>::
+player.gd::GDScript::4511645345548344789::1777810511::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://sounds/::1777810576
+attack.tres::AudioStreamWAV::-1::1777810468::0::1::::<><><>0<>0<><>::
+button.tres::AudioStreamWAV::-1::1777810468::0::1::::<><><>0<>0<><>::
+death.tres::AudioStreamWAV::-1::1777810576::0::1::::<><><>0<>0<><>::
+door.tres::AudioStreamWAV::-1::1777810468::0::1::::<><><>0<>0<><>::
+enemy_hurt.tres::AudioStreamWAV::-1::1777810468::0::1::::<><><>0<>0<><>::
+key.tres::AudioStreamWAV::-1::1777810554::0::1::::<><><>0<>0<><>::
+player_hurt.tres::AudioStreamWAV::-1::1777810468::0::1::::<><><>0<>0<><>::
+walk.tres::AudioStreamWAV::-1::1777810468::0::1::::<><><>0<>0<><>::

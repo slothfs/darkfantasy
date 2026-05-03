@@ -240,12 +240,6 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ybca7"]
-bg_color = Color(0, 0, 0.2509804, 1)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8ln24"]
-bg_color = Color(0, 0, 0, 1)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_1468l"]
 atlas = ExtResource("2_8ln24")
 region = Rect2(0, 0, 192, 192)
@@ -388,6 +382,12 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ybca7"]
+bg_color = Color(0, 0, 0.2509804, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8ln24"]
+bg_color = Color(0, 0, 0, 1)
+
 [node name="MainMenu" type="Control" unique_id=1990374877]
 layout_mode = 3
 anchors_preset = 15
@@ -422,7 +422,7 @@ position = Vector2(1666, 848)
 scale = Vector2(7.2777777, 7.55)
 sprite_frames = SubResource("SpriteFrames_hstxw")
 autoplay = "default"
-frame_progress = 0.53797454
+frame_progress = 0.06632781
 
 [node name="BG-S" type="AnimatedSprite2D" parent="." unique_id=649216779]
 texture_filter = 1
@@ -430,7 +430,34 @@ position = Vector2(1667, 516.99994)
 scale = Vector2(5, 5)
 sprite_frames = SubResource("SpriteFrames_1468l")
 autoplay = "default"
-frame_progress = 0.2619202
+frame_progress = 0.39378417
+
+[node name="Label" type="Label" parent="." unique_id=456112266]
+layout_mode = 0
+offset_left = 258.0
+offset_top = -36.99994
+offset_right = 1678.0
+offset_bottom = 351.00006
+theme_override_font_sizes/font_size = 212
+text = "RPG ARENA"
+
+[node name="BG-P" type="AnimatedSprite2D" parent="." unique_id=1219674348]
+texture_filter = 1
+position = Vector2(311, 671.00006)
+scale = Vector2(10, 10)
+sprite_frames = SubResource("SpriteFrames_vanrq")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.21874999
+
+[node name="BG-K" type="AnimatedSprite2D" parent="." unique_id=1824527709]
+texture_filter = 1
+position = Vector2(1274, 545)
+rotation = -0.81646335
+scale = Vector2(15, 15)
+sprite_frames = SubResource("SpriteFrames_6h3lr")
+autoplay = "default"
+frame_progress = 0.35889056
 
 [node name="Play" type="Button" parent="." unique_id=1219424853]
 layout_mode = 0
@@ -453,33 +480,6 @@ scale = Vector2(0.7746801, 0.7997259)
 theme_override_font_sizes/font_size = 120
 theme_override_styles/normal = SubResource("StyleBoxFlat_ybca7")
 text = "arenas"
-
-[node name="Label" type="Label" parent="." unique_id=456112266]
-layout_mode = 0
-offset_left = 258.0
-offset_top = -36.99994
-offset_right = 1678.0
-offset_bottom = 351.00006
-theme_override_font_sizes/font_size = 212
-text = "RPG ARENA"
-
-[node name="BG-P" type="AnimatedSprite2D" parent="." unique_id=1219674348]
-texture_filter = 1
-position = Vector2(311, 671.00006)
-scale = Vector2(10, 10)
-sprite_frames = SubResource("SpriteFrames_vanrq")
-animation = &"new_animation"
-autoplay = "new_animation"
-frame_progress = 0.08687099
-
-[node name="BG-K" type="AnimatedSprite2D" parent="." unique_id=1824527709]
-texture_filter = 1
-position = Vector2(1274, 545)
-rotation = -0.81646335
-scale = Vector2(15, 15)
-sprite_frames = SubResource("SpriteFrames_6h3lr")
-autoplay = "default"
-frame_progress = 0.09463965
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Levels" to="." method="_on_levels_pressed"]

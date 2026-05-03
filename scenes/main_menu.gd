@@ -1,10 +1,13 @@
 extends Control
 
+func _ready() -> void:
+	$Play.pressed.connect(_on_play_pressed)
+	$Levels.pressed.connect(_on_levels_pressed)
 
 func _on_play_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/levels/level_1.tscn")
-
+	AudioController.play_button()
+	Fade.transition_to_scene("res://scenes/levels/level_1.tscn")
 
 func _on_levels_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/level_menu.tscn")
-	
+	AudioController.play_button()
+	Fade.transition_to_scene("res://scenes/level_menu.tscn")

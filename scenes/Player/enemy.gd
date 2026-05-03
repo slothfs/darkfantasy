@@ -154,6 +154,7 @@ func take_damage(amount: int) -> void:
 		return
 
 	hitpoints -= amount
+	AudioController.play_enemy_hurt()
 
 	playback.travel("hurt")
 
