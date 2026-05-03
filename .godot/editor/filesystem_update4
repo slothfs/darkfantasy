@@ -5,3 +5,6 @@ res://scenes/key.tscn
 res://scenes/levels/door3.gd
 res://scenes/levels/level_4.tscn
 res://scenes/test/test_map.tscn
+res://scripts/bg.gdshader
+res://scenes/main_menu.tscn
+res://scenes/main_menu.gd
