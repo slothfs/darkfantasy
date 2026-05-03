@@ -1,8 +1,8 @@
+Node
 PointLight2D
 ColorRect
 Panel
 CanvasLayer
-Node
 Label
 TextureRect
 HBoxContainer
@@ -12,4 +12,3 @@ CollisionShape2D
 Area2D
 AnimatedSprite2D
 Camera2D
-CharacterBody2D
