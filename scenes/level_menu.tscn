@@ -1,5 +1,199 @@
 [gd_scene format=3 uid="uid://c8tisnxu07rry"]
 
+[ext_resource type="Shader" uid="uid://dvhxb7jllqiqo" path="res://scripts/bg.gdshader" id="1_rj3wb"]
+[ext_resource type="Shader" uid="uid://meekywnkyixi" path="res://scenes/level_menu_text.gdshader" id="2_jqwib"]
+[ext_resource type="Texture2D" uid="uid://b0sqri1w7nkdt" path="res://assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.png" id="3_jqwib"]
+[ext_resource type="Shader" uid="uid://c2hjqbpcfdae7" path="res://scenes/level_menu_buttons.gdshader" id="4_7obll"]
+[ext_resource type="Texture2D" uid="uid://bd755toa6jqnu" path="res://assets/key-white.png" id="5_teein"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7obll"]
+shader = ExtResource("1_rj3wb")
+shader_parameter/base_color = Color(0.266, 0, 0.266, 1)
+shader_parameter/wobble_speed = 2.0
+shader_parameter/wobble_strength = 0.03
+shader_parameter/scale_strength = 0.04
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_teein"]
+shader = ExtResource("2_jqwib")
+shader_parameter/move_speed = 2.0
+shader_parameter/move_strength = 12.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_k08aj"]
+shader = ExtResource("4_7obll")
+shader_parameter/state = 0
+shader_parameter/speed = 2.0
+shader_parameter/split_y = 0.5
+shader_parameter/hover_amount = 1.5
+shader_parameter/press_amount = 10.0
+shader_parameter/gap_size = 0.03
+shader_parameter/tooth_strength = 0.02
+shader_parameter/tooth_density = 80.0
+shader_parameter/glow_color = Color(0.6, 0.2, 1, 1)
+shader_parameter/glow_strength = 1.5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jqwib"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_teein"]
+bg_color = Color(4.5964866e-06, 0.031077038, 0.3047392, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7obll"]
+bg_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7obll"]
+atlas = ExtResource("3_jqwib")
+region = Rect2(0, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_teein"]
+atlas = ExtResource("3_jqwib")
+region = Rect2(192, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k08aj"]
+atlas = ExtResource("3_jqwib")
+region = Rect2(384, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2go0k"]
+atlas = ExtResource("3_jqwib")
+region = Rect2(576, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qdp46"]
+atlas = ExtResource("3_jqwib")
+region = Rect2(768, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u0fjm"]
+atlas = ExtResource("3_jqwib")
+region = Rect2(960, 960, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6flmm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7obll")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_teein")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k08aj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2go0k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qdp46")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u0fjm")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6flmm"]
+atlas = ExtResource("5_teein")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wxgv2"]
+atlas = ExtResource("5_teein")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frxpb"]
+atlas = ExtResource("5_teein")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_35reb"]
+atlas = ExtResource("5_teein")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yedrf"]
+atlas = ExtResource("5_teein")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tkofx"]
+atlas = ExtResource("5_teein")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qc6d6"]
+atlas = ExtResource("5_teein")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ojubo"]
+atlas = ExtResource("5_teein")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nmg3d"]
+atlas = ExtResource("5_teein")
+region = Rect2(256, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rxfj8"]
+atlas = ExtResource("5_teein")
+region = Rect2(288, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_373su"]
+atlas = ExtResource("5_teein")
+region = Rect2(320, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w721w"]
+atlas = ExtResource("5_teein")
+region = Rect2(352, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cabf2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6flmm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wxgv2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frxpb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_35reb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yedrf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tkofx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qc6d6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ojubo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nmg3d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rxfj8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_373su")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w721w")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
 [node name="LevelMenu" type="Control" unique_id=1903019279]
 layout_mode = 3
 anchors_preset = 15
@@ -7,3 +201,138 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=650197890]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=303131453]
+material = SubResource("ShaderMaterial_7obll")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=1139084535]
+material = SubResource("ShaderMaterial_teein")
+layout_mode = 0
+offset_left = 479.0
+offset_top = 7.0
+offset_right = 1479.0
+offset_bottom = 367.0
+theme_override_font_sizes/font_size = 200
+text = "ARENAS"
+
+[node name="buttons" type="Node" parent="." unique_id=853138159]
+
+[node name="a1" type="Button" parent="buttons" unique_id=336288447]
+material = SubResource("ShaderMaterial_k08aj")
+offset_left = 480.0
+offset_top = 423.0
+offset_right = 661.0
+offset_bottom = 600.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_jqwib")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_teein")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7obll")
+text = "1"
+
+[node name="a2" type="Button" parent="buttons" unique_id=759252754]
+material = SubResource("ShaderMaterial_k08aj")
+offset_left = 841.0
+offset_top = 423.0
+offset_right = 1022.0
+offset_bottom = 600.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_jqwib")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_teein")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7obll")
+text = "2
+"
+
+[node name="a3" type="Button" parent="buttons" unique_id=714908381]
+material = SubResource("ShaderMaterial_k08aj")
+offset_left = 1224.0
+offset_top = 423.0
+offset_right = 1405.0
+offset_bottom = 600.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_jqwib")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_teein")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7obll")
+text = "3
+"
+
+[node name="a4" type="Button" parent="buttons" unique_id=2027112696]
+material = SubResource("ShaderMaterial_k08aj")
+offset_left = 480.0
+offset_top = 697.0
+offset_right = 661.0
+offset_bottom = 874.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_jqwib")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_teein")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7obll")
+text = "4
+"
+
+[node name="a5" type="Button" parent="buttons" unique_id=1836749698]
+material = SubResource("ShaderMaterial_k08aj")
+offset_left = 841.0
+offset_top = 695.0
+offset_right = 1022.0
+offset_bottom = 872.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_jqwib")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_teein")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7obll")
+text = "5
+"
+
+[node name="a6" type="Button" parent="buttons" unique_id=606795983]
+material = SubResource("ShaderMaterial_k08aj")
+offset_left = 1244.0
+offset_top = 676.0
+offset_right = 1425.0
+offset_bottom = 853.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_jqwib")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_teein")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7obll")
+text = "6
+"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="buttons" unique_id=1061614256]
+texture_filter = 1
+position = Vector2(317, 589)
+scale = Vector2(9.7543125, 9.062769)
+sprite_frames = SubResource("SpriteFrames_6flmm")
+autoplay = "default"
+frame_progress = 0.7323506
+
+[node name="key" type="AnimatedSprite2D" parent="." unique_id=169193413]
+texture_filter = 1
+position = Vector2(1641, 580)
+scale = Vector2(15, 15)
+sprite_frames = SubResource("SpriteFrames_cabf2")
+autoplay = "default"
+frame_progress = 0.36330798

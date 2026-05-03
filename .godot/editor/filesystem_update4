@@ -8,3 +8,7 @@ res://scenes/test/test_map.tscn
 res://scripts/bg.gdshader
 res://scenes/main_menu.tscn
 res://scenes/main_menu.gd
+res://scenes/level_menu.tscn
+res://scenes/level_menu_text.gdshader
+res://scenes/level_menu_buttons.gdshader
+res://scripts/level_menu.gd
