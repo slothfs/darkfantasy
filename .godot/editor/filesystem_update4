@@ -1,7 +1,4 @@
+res://scenes/levels/level_1.tscn
+res://scenes/key.tscn
+res://scenes/key_notify.tscn
 res://scenes/Player/enemy.tscn
-res://scenes/Player/enemy.gd
-res://scripts/player.gd
-res://scenes/test/test_map.tscn
-res://scenes/Player/player.tscn
-res://scripts/enemy_gob.gd
-res://enemy_gob.tscn

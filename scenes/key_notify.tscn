@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://b0lf2vb8fse18"]
+
+[ext_resource type="Texture2D" uid="uid://bd755toa6jqnu" path="res://assets/key-white.png" id="1_vhxoq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ihwnp"]
+atlas = ExtResource("1_vhxoq")
+region = Rect2(201, 4, 13, 28)
+
+[node name="KeyNotify" type="Panel" unique_id=949298729]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1606.0
+offset_top = 1.0
+offset_right = -1.0
+offset_bottom = -1046.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2074762711]
+layout_mode = 0
+offset_right = 313.0
+offset_bottom = 32.0
+color = Color(0, 0, 0.21960784, 1)
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1615297462]
+texture_filter = 1
+layout_mode = 0
+offset_left = 20.0
+offset_top = 2.0
+offset_right = 44.76172
+offset_bottom = 30.0
+scale = Vector2(0.525, 1)
+texture = SubResource("AtlasTexture_ihwnp")
+
+[node name="Label" type="Label" parent="." unique_id=453368043]
+texture_filter = 1
+layout_mode = 0
+offset_left = 39.0
+offset_top = -2.0
+offset_right = 351.19263
+offset_bottom = 43.0
+scale = Vector2(0.76234955, 0.7347306)
+theme_override_font_sizes/font_size = 25
+text = "Player Got A KEY !!"

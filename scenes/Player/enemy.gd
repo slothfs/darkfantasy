@@ -54,11 +54,15 @@ func _physics_process(delta: float) -> void:
 
 	if state != State.RETREAT and hitpoints <= max_hitpoints * retreat_health_percent:
 		state = State.RETREAT
-		start_healing()
-
-	if state == State.RETREAT and hitpoints >= max_hitpoints * return_health_percent:
-		state = State.CHASE
-		is_healing = false
+		
+		# Disappear for 1 sec to evade, but stay killable
+		sprite.visible = false
+		await get_tree().create_timer(1.0).timeout
+		
+		if is_instance_valid(sprite) and not is_dead:
+			sprite.visible = true
+			hitpoints = mini(hitpoints + 50, max_hitpoints)
+			state = State.CHASE
 
 	match state:
 		State.IDLE:
